@@ -1,0 +1,47 @@
+@import "colors";
+
+.profileSection{
+    width: 100vw;
+    height: 100vh;
+
+    > .profileParent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        > img{
+            width: 300px;
+            height: 300px;
+            // border: 1px solid black;
+            border-radius: 150px;
+            margin-top: 60px;
+        }        
+        > h1{
+            padding: 20px;
+            font-family: "Roboto","sans-serif";
+        }
+        > button{
+            margin-top: 10px;
+            color: white;
+            width: 180px;
+            height: 50px;
+            background-color: $red;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.6s;
+            
+            svg{
+                margin-right: 0.5rem;
+            }
+            > a{
+                color: white;
+                font-size: 18px;
+            }
+            
+            &:hover{
+                background-color: $reddark;
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@import "colors";
+
+.shippingParent {
+    width: 50vw;
+    margin: auto;
+    height: 100vh;
+    // border: 1px solid black;
+
+    >h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+    }
+
+    > .shippingForm {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // border: 1px solid black;
+            width: 70%;
+            >h3 {
+                display: block;
+                padding: 10px 18px;
+                font-size: 22px;
+                margin: 10px;
+            }
+            >input,select {
+                display: block;
+                margin: 10px;
+                width: 230px;
+                padding: 14px 18px;
+                border: none;
+                background-color: gainsboro;
+                outline: none;
+            }
+
+        }
+        > button{
+            padding: 12px 22px;
+            width: 200px;
+            margin-top: 20px;
+            background-color: $red;
+            color: white;
+            border: none;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.4s;
+            >a {
+                color: white;
+            }
+            &:hover{
+                background-color: $reddark;
+            }
+        }
+    }
+}

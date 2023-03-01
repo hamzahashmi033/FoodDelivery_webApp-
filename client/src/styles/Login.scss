@@ -1,0 +1,33 @@
+@import "colors";
+
+.loginSection{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+    box-sizing: border-box;
+    background-color: $pink;
+    > button{
+        margin-top: 20%;
+        height: 8%;
+        padding: 18px 28px;
+        background-color: $red;
+        cursor: pointer;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        font-size: 20px;
+        border-radius: 10px;
+        transition: all 0.6s;
+        &:hover{
+            background-color: $reddark;
+            color: $pink;
+        }
+        svg{
+            margin-left: 0.4rem;
+        }
+    }
+}   

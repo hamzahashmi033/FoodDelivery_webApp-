@@ -1,0 +1,77 @@
+@import "colors";
+
+.orderDetailsSection {
+    // height: 200vh;
+    width: 100vw;
+    background-color: $pink;
+    margin-top: 3px;
+
+    >.mainArea {
+        max-width: 60%;
+        background-color: white;
+        height: 100%;
+        margin: auto;
+        padding-bottom: 40px;
+
+        >h1 {
+            text-align: center;
+            padding-top: 30px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+        }
+        > div{
+            text-align: center;
+            margin-top: 40px;
+            >h2{
+                font-size: 22px;
+                letter-spacing: 3px;
+                padding: 1rem;
+            }
+            > div{
+                // border: 1px solid black;
+                margin: 10px;
+            
+            > .subHead{
+                font-weight: 700;
+                letter-spacing: 2px;
+            }
+        }   
+            
+        }
+        > .subArea{
+            text-align: left;
+            >h1 {
+                text-align: center;
+                margin-left: 10px;
+                padding-top: 30px;
+                font-family: 'Montserrat', sans-serif;
+                text-transform: uppercase;
+            }
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: gainsboro;
+                padding: 18px 28px;
+                border-radius: 10px;
+                >h2{
+                    font-family: "Roboto",sans-serif;
+                    font-weight: 200;
+                    font-size: 18px;
+                    color: rgb(122, 118, 118);
+                }
+                > p{
+                    font-family: "Roboto",sans-serif;
+                    font-weight: 200;
+                    font-size: 18px;
+                    color: rgb(122, 118, 118);
+                }
+                > h3{
+                    font-weight: 800;
+                    font-size: 22px;
+                    color: black;
+                }
+            }
+        }
+    }
+}

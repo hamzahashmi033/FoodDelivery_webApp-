@@ -1,0 +1,79 @@
+@import "colors";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&family=Ubuntu&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+.notFound {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >svg {
+        font-size: 80px;
+        color: red;
+    }
+
+    >h1 {
+        padding: 20px;
+        font-size: 40px;
+        color: $red;
+    }
+
+    >p {
+        font-size: 20px;
+        padding: 10px;
+        color: gray;
+    }
+
+    >a {
+        padding: 18px 28px;
+        border: none;
+        outline: none;
+        background-color: $red;
+        color: white;
+        font-size: 18px;
+        border-radius: 10px;
+        transition: all 0.8s;
+        cursor: pointer;
+        margin: 20px;
+
+        &:hover {
+            background-color: $reddark;
+
+        }
+    }
+}
+.loader{
+    display: flex;
+    height: 100vh;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: $pink;
+    margin-top: 3px;
+    > svg{
+        font-size: 15rem;
+        color: $red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.3;
+    }
+    > div{
+        font-size: 30px;
+    }
+}
