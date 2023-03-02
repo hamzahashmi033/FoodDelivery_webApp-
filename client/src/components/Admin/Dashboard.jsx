@@ -47,7 +47,7 @@ const Dashboard = () => {
              data={data}
              />
              <div>
-           <Link to="/admin/orders"> View Orders </Link>
+            <Link to="/admin/orders"> View Orders </Link>
             <Link to="/admin/users"> View Users </Link>
              </div>
         </div>

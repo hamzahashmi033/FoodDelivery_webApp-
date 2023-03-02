@@ -33,6 +33,8 @@
         }
         > .doughnut{
             width: 50%;
+            display: flex;
+            flex-direction: column;
             margin: auto;
             > div{
                 display: flex;

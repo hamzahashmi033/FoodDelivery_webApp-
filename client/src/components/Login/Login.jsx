@@ -9,7 +9,7 @@ const Login = () => {
     }
     return (
         <>
-            <motion.div initial={
+        <motion.div initial={
                 {
                     y: "-100vh",
                     opacity: 0
